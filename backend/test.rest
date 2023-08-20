@@ -1,0 +1,11 @@
+POST  http://127.0.0.1:8000/api/login
+content-type: application/json
+
+{"username":"g", "password":"123"}
+
+###
+
+POST http://127.0.0.1:8000/api/sign_up
+content-type: application/json
+
+{"username":"g", "password":"123"}
