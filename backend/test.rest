@@ -1,11 +1,18 @@
 POST  http://127.0.0.1:8000/api/login
 content-type: application/json
 
-{"username":"g", "password":"123"}
+{"username":"mm", "password":"123"}
 
 ###
 
 POST http://127.0.0.1:8000/api/sign_up
 content-type: application/json
 
-{"username":"g", "password":"123"}
+{"username":"mm", "password":"123"}
+
+###
+
+GET http://127.0.0.1:8000/api/start
+content-type: application/json
+
+Authorization: Token b57190f0ecab30392b7b1f66c27b0b442767bba5
