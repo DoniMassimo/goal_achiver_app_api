@@ -14,5 +14,21 @@ content-type: application/json
 
 GET http://127.0.0.1:8000/api/start
 content-type: application/json
-
 Authorization: Token b57190f0ecab30392b7b1f66c27b0b442767bba5
+
+###
+
+POST http://127.0.0.1:8000/api/c
+content-type: application/json
+
+{"title":"f"}
+
+###
+
+POST http://127.0.0.1:8000/api/a
+content-type: application/json
+
+###
+
+GET http://127.0.0.1:8000/api/g
+content-type: application/json
